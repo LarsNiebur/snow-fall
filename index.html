@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body {
+				background-color: #000022; /* Diese Farbe kann nach Belieben angepasst werden */
+				overflow		: hidden;
+			}
+			img {
+				position	: absolute;
+				will-change	: transform; /* Optimierung für GPU-Rendering */
+			}
+		</style>
+	</head>
+	
+	<body>
+		<script src="js/snowfall.js"></script>
+		<script>
+			var snowstorm = new Snowfall( "img/snow.png", 100, 5 );
+			// var snowstorm2 = new Snowfall( "img/boob2.gif", 100, 2 );
+		</script>
+	</body>
+</html>
